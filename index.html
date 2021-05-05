@@ -8,45 +8,79 @@
     <!--Add Link to Google Font-->
     <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Roboto&display=swap" rel="stylesheet">
     <!--Add Link to CSS Style Sheet-->
-
+    <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    About
-    Skills
-    My Name
-    Projects
-    Contact
-
-    Welcome to My Coding Journey...
-    see what skills I'm learning
-
-    <!--About Me Image here-->
-    About Me
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Tellus in metus vulputate eu scelerisque felis. Iaculis eu non diam phasellus vestibulum lorem sed. Faucibus in ornare quam viverra orci sagittis eu volutpat. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Tempus quam pellentesque nec nam aliquam sem et tortor. Ut venenatis tellus in metus vulputate eu. Amet justo donec enim diam. Aliquet nec ullamcorper sit amet risus. Aliquam ut porttitor leo a diam sollicitudin. Sed tempus urna et pharetra.
-
-    My Skills
-    
-    <!--HTML image here-->
-    HTML
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-    <!--CSS image here-->
-    CSS
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-    <!--Git Hub image here-->
-    Git / Git Hub
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-    My Projects
-
-    User Interface
-    Git for Web Development
-    Intro to CSS
-    CSS Layouts
-
-    Get In Touch
-    Email Me
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a class="homebtn" href="#home">My<br>Name</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+   <section id="home">
+       <div>
+           <h1>Welcome to My<br>Coding Journey...</h1>
+           <button>see what skills I'm learning</button>
+       </div>
+   </section>
+   <section id="about">
+       <div class="aboutImg">
+            <img src="images/aboutme.jpg" alt="headshot of Brit Hemming">
+       </div>
+       <div class="aboutTxt">
+            <div>
+                <h2>About Me</h2>
+                <hr>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Tellus in metus vulputate eu scelerisque felis. Iaculis eu non diam phasellus vestibulum lorem sed. Faucibus in ornare quam viverra orci sagittis eu volutpat. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Tempus quam pellentesque nec nam aliquam sem et tortor. Ut venenatis tellus in metus vulputate eu. Amet justo donec enim diam. Aliquet nec ullamcorper sit amet risus. Aliquam ut porttitor leo a diam sollicitudin. Sed tempus urna et pharetra.</p>
+            </div>
+       </div>
+   </section>
+   <section id="skills">
+       <h2>My Skills</h2>
+       <hr>
+       <div class="container">
+           <div class="card">
+               <div class="html"><!--empty div for bg image--></div>
+               <h3>HTML</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+           </div>
+           <div class="card">
+               <div class="css"><!--empty div for bg image--></div>
+               <h3>CSS</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+           </div>
+           <div class="card">
+               <div class="git"><!--empty div for bg image--></div>
+               <h3>Git / Git Hub</h3>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+           </div>
+       </div>
+   </section>
+   <section id="projects">
+       <h2>My Projects</h2>
+       <hr>
+       <div class="container">
+           <div class="box">
+               <a href="https://codepen.io/lambdaschool/pen/vaXWWG/?editors=0100" target="_blank">User<br>Interface</a>
+           </div>
+           <div class="box">
+               <a href="https://github.com/LambdaSchool/Git-for-Web-Development-Project" target="_blank">Git for Web<br>Development</a>
+           </div>
+           <div class="box">
+               <a href="https://github.com/LambdaSchool/web-module-project-intro-css" target="_blank">Intro to<br>CSS</a>
+            </div>
+           <div class="box">
+               <a href="https://github.com/LambdaSchool/User-Interface-II" target="_blank">CSS<br>Layouts</a>
+           </div>
+       </div>
+   </section>
+   <footer id="contact">
+       <h2>Get In Touch</h2>
+       <hr>
+       <button>Email Me</button>
+   </footer>
 </body>
 </html>
